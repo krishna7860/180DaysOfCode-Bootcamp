@@ -14,6 +14,7 @@ __Day 1 - 15__
 * Css Variable 
 * SASS
 * Compiler Functions
+
 __Day 7-10__
 
-Mastering Markdown Language
+_Mastering Markdown Language_
