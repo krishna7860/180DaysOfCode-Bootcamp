@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Box Shadow</title>
+    <style>
+        .container{
+            display: flex;
+        }
+        .box{
+            padding: 1rem;
+            margin: 1rem;
+            background: coral;
+            color: #fff;
+           /* offset-x | offset-y | color */
+           box-shadow: 10px 10px teal;
+            
+        }
+        .box:last-child{
+            /* offset-x | offset-y | color | Blur radius */
+            box-shadow: 10px 10px 5px teal;
+        }
+        .box:nth-child(2){
+            /* Negative  */
+            box-shadow: -5px -5px 20px teal;
+        }
+        .box:nth-child(3){
+            /* Negative  */
+            box-shadow: 3px 3px 5px 1px rgba(0,0,0,0.3);
+        }
+        .box:nth-child(1){
+            /* Multiple shadow */
+            box-shadow: 3px 3px 5px 1px rgba(0,0,0,0.3),-3px -3px 5px 1px rgba(0,0,0,0.3);
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h3>Heading</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+       
+         </div>
+        <div class="box">
+            <h3>Heading</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="box">
+            <h3>Heading</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+        </div>
+        <div class="box">
+                <h3>Heading</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+        </div>
+    </div>
+</body>
+</html>

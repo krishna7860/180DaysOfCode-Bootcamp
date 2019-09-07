@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Css Grid</title>
+    <style>
+        .grid{
+            display: grid;
+            /* grid-template-columns: 200px auto 200px; */
+            /* grid-template-columns:repeat(3,auto); */
+            grid-template-columns:1fr 2fr 2fr;
+            grid-gap: 1rem;
+        }
+        .item{
+            padding: 3rem;
+            border: 1px solid #ccc;
+            background: #f4f4f4;
+            font-size: 1.3rem;
+            font-weight: bold;
+            text-align: center;
+            }
+            main{
+                display: grid;
+                grid-template-columns: 2fr 1fr;
+                grid-gap: 1.5rem;
+            }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+    <main>
+        <section>
+            <h3>Welcome to mY Site</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, doloremque? Velit quas fugit dolor deserunt enim? Nam, cumque! Distinctio atque dolor eaque repellendus aut aliquid mollitia iste numquam soluta ex!</p>
+        </section>
+        <aside>
+                <h3>Side Bar</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod ipsam sit officia dolores expedita excepturi ipsa praesentium enim tenetur eveniet?</p>
+            </aside>
+    </main>
+</body>
+</html>
