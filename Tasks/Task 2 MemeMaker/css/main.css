@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-header .main-header__heading {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 3rem;
+  color: lightcoral;
+  padding: 2rem;
+}
+.main-header .main-header__heading span {
+  color: lawngreen;
+}
+.showcase {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  height: 60vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.showcase {
+  backface-visibility: hidden;
+}
+#showcase__image {
+  height: 100%;
+  width: 30%;
+  margin-bottom: 1rem;
+}
+.showcase__button {
+  padding: 0.5rem 0.75rem;
+  background: chocolate;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  transition: all 0.2s;
+}
+.showcase__button:hover {
+  margin-top: -3px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+.showcase__button:active {
+  margin-top: -1px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
