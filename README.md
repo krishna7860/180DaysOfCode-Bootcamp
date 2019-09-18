@@ -5,7 +5,7 @@ I Started A 180 Days of Bootcamp Starting from HTML, CSS to Path of the Full Sta
 
 ### Month 1
 
-__Day 1 - 15__                                          ![html_css](http://www.bobbyberberyan.com/wp-content/uploads/2012/03/HTML5CSS3Logos.svg =300x300)
+__Day 1 - 15__                                          <img src="http://www.bobbyberberyan.com/wp-content/uploads/2012/03/HTML5CSS3Logos.svg" height="300px" width="300px"  />
 * HTML
 * CSS
 * FlexBox
