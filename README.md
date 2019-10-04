@@ -18,3 +18,17 @@ __Day 7-10__
 
 _Mastering Markdown Language_
 3
+
+__Day 15-30__
+
+_Flexbox.io_
+_cssgrid.io_
+(wes bos)
+
+__Projects__
+
+_HTMl and CSS Projects_
+
+### Month 2
+
+* Javascript
