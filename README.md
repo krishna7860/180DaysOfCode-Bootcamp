@@ -31,6 +31,6 @@ _HTMl and CSS Projects_
 
 ### Month 2
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" height = "300px" width ="300px" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" height = "200px" width ="200px" />
 
 * Javascript
