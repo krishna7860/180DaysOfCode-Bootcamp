@@ -31,6 +31,39 @@ _HTMl and CSS Projects_
 
 ### Month 2
 
+
+#### What is JavaScript?
+
+JavaScript was initially created to “make web pages alive”.
+The programs in this language are called scripts. They can be written right in a web page’s HTML and run automatically as the page loads.
+Scripts are provided and executed as plain text. They don’t need special preparation or compilation to run.
+In this aspect, JavaScript is very different from another language called Java.
+
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" height = "200px" width ="200px" />
 
-* Javascript
+__Day 1 - 15__                                      
+
+__Intro To JavaScript__
+
+* Javascript Intro
+* Var, Let and Const
+* Type Conversion
+* Math Object 
+* ES6 Template Literals 
+* Conditional Statements
+* DOM Manipulation
+* Create , Replace and Append Elements
+* Mouse and Keyboard Events
+* Event Listeners
+* Event bubbling And Deligation
+
+__Object Oriented Javascript__
+
+* Objects 
+* Constructor and this keyword
+* Builtin Constructor
+* Prototype 
+* Prototyple Inheritance
+* ES6 Classes
+* Sub Classes
+
