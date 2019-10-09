@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "company": "ABC Inc",
+    "phone": 786055555
+  },
+  {
+    "id": 2,
+    "name": "Sam Doe",
+    "company": "DVV Inc",
+    "phone": 78605764555
+  },
+  {
+    "id": 3,
+    "name": "Max Lunis",
+    "company": "FOoogme Inc",
+    "phone": 7860454455
+  }
+]
