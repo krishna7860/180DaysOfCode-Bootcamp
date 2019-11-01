@@ -67,3 +67,9 @@ __Object Oriented Javascript__
 * ES6 Classes
 * Sub Classes
 
+__HTTP CALLING__
+
+* AJAX Implementation
+* Promises
+* Fetch API
+* Aysnc & Await
